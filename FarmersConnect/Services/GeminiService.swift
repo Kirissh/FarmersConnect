@@ -9,7 +9,7 @@ enum GeminiError: Error {
 class GeminiService {
     static let shared = GeminiService()
     
-    private let apiKey = "AIzaSyD0AaYvJgT1fPuKvfd1OSckDdlE1l1QFzs"
+    private let apiKey = "GeminiKeyEntry"
     private let model = "gemini-flash-latest"
     
     private var baseURL: URL? {
